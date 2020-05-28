@@ -1,0 +1,151 @@
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc
+@options
+@packages
+-classpath
+'/home/user1/.m2/repository/org/openjfx/javafx-controls/12.0.2/javafx-controls-12.0.2.jar:/home/user1/.m2/repository/org/openjfx/javafx-controls/12.0.2/javafx-controls-12.0.2-linux.jar:/home/user1/.m2/repository/org/openjfx/javafx-graphics/12.0.2/javafx-graphics-12.0.2.jar:/home/user1/.m2/repository/org/openjfx/javafx-graphics/12.0.2/javafx-graphics-12.0.2-linux.jar:/home/user1/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14.jar:/home/user1/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14-linux.jar:/home/user1/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/user1/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/user1/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/user1/.m2/repository/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/user1/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/user1/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/user1/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/user1/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/user1/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/user1/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/user1/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/user1/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/user1/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/user1/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/user1/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar:/home/user1/.m2/repository/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar:/home/user1/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/user1/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.jar:/home/user1/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar:/home/user1/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.10.1/maven-artifact-transfer-0.10.1.jar:/home/user1/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.9.2/doxia-site-renderer-1.9.2.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-core/1.9.1/doxia-core-1.9.1.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.9.2/doxia-decoration-model-1.9.2.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.9.2/doxia-skin-model-1.9.2.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.9.1/doxia-module-xhtml-1.9.1.jar:/home/user1/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.9.1/doxia-module-xhtml5-1.9.1.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar:/home/user1/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar:/home/user1/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/user1/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/user1/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar:/home/user1/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/user1/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/user1/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar:/home/user1/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar:/home/user1/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/user1/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/user1/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar:/home/user1/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/user1/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/user1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar:/home/user1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/home/user1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/user1/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M10/qdox-2.0-M10.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar:/home/user1/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.jar:/home/user1/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/user1/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/home/user1/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar'
+-encoding
+'UTF-8'
+-private
+-sourcepath
+'/home/user1/GIT/oop/Bezpalyi Mark/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'oop-java-labs 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/user1/GIT/oop/Bezpalyi Mark/target/javadoc-bundle-options'
+-nohelp
+-use
+-version
+-windowtitle
+'oop-java-labs 1.0-SNAPSHOT API'
+ua.khpi.oop.bondar09
+ua.khpi.oop.bondar09
+ua.khpi.oop.bondar11
+ua.khpi.oop.bondar11
+ua.khpi.oop.bondar12
+ua.khpi.oop.bondar12
+ua.khpi.oop.bondar12
+ua.khpi.oop.bondar13
+ua.khpi.oop.bondar13
+ua.khpi.oop.bondar13
+ua.khpi.oop.bondar13
+ua.khpi.oop.bondar16.view
+ua.khpi.oop.bondar16.view
+ua.khpi.oop.bondar16.model
+ua.khpi.oop.bondar16
+ua.khpi.oop.bondar16.controller
+ua.khpi.oop.bondar10
+ua.khpi.oop.bondar10
+ua.khpi.oop.bondar10
+ua.khpi.oop.bondar10
+ua.khpi.oop.bondar10
+ua.khpi.oop.bondar15
+ua.khpi.oop.bondar15
+ua.khpi.oop.bondar15
+ua.khpi.oop.bondar15
+ua.khpi.oop.bondar06
+ua.khpi.oop.bondar14
+ua.khpi.oop.bondar07
+ua.khpi.oop.bondar05
+/home/user1/.m2/repository/org/openjfx/javafx-controls/12.0.2/javafx-controls-12.0.2.jar = 1590181060414
+/home/user1/.m2/repository/org/openjfx/javafx-controls/12.0.2/javafx-controls-12.0.2-linux.jar = 1590181063434
+/home/user1/.m2/repository/org/openjfx/javafx-graphics/12.0.2/javafx-graphics-12.0.2.jar = 1590181060390
+/home/user1/.m2/repository/org/openjfx/javafx-graphics/12.0.2/javafx-graphics-12.0.2-linux.jar = 1590181067267
+/home/user1/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14.jar = 1590181060870
+/home/user1/.m2/repository/org/openjfx/javafx-base/14/javafx-base-14-linux.jar = 1590181064062
+/home/user1/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar = 1583413334437
+/home/user1/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar = 1583413334949
+/home/user1/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1589979639415
+/home/user1/.m2/repository/org/apache/maven/plugins/maven-javadoc-plugin/3.2.0/maven-javadoc-plugin-3.2.0.jar = 1590181063398
+/home/user1/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar = 1568982408025
+/home/user1/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar = 1568982410181
+/home/user1/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar = 1568982407633
+/home/user1/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar = 1568982407861
+/home/user1/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar = 1568982408113
+/home/user1/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar = 1568982408181
+/home/user1/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar = 1568982408397
+/home/user1/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar = 1568982407213
+/home/user1/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar = 1568982408681
+/home/user1/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar = 1568982408761
+/home/user1/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar = 1568982409145
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar = 1568982409033
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar = 1568982409133
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar = 1568982360476
+/home/user1/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar = 1568982409301
+/home/user1/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar = 1568982409501
+/home/user1/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar = 1568982409745
+/home/user1/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar = 1568982409953
+/home/user1/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar = 1568982409761
+/home/user1/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar = 1568982407097
+/home/user1/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar = 1568982407097
+/home/user1/.m2/repository/org/apache/maven/maven-archiver/3.5.0/maven-archiver-3.5.0.jar = 1590181064246
+/home/user1/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar = 1568988436144
+/home/user1/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.0/maven-invoker-3.0.0.jar = 1574092334057
+/home/user1/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.0/maven-common-artifact-filters-3.0.0.jar = 1568989662146
+/home/user1/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.10.1/maven-artifact-transfer-0.10.1.jar = 1590181065251
+/home/user1/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar = 1568988821044
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.7/doxia-sink-api-1.7.jar = 1574092334341
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-logging-api/1.7/doxia-logging-api-1.7.jar = 1574092334149
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-site-renderer/1.9.2/doxia-site-renderer-1.9.2.jar = 1590181065423
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-core/1.9.1/doxia-core-1.9.1.jar = 1590181067727
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-decoration-model/1.9.2/doxia-decoration-model-1.9.2.jar = 1590181066619
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-skin-model/1.9.2/doxia-skin-model-1.9.2.jar = 1590181066783
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml/1.9.1/doxia-module-xhtml-1.9.1.jar = 1590181066967
+/home/user1/.m2/repository/org/apache/maven/doxia/doxia-module-xhtml5/1.9.1/doxia-module-xhtml5-1.9.1.jar = 1590181067351
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-i18n/1.0-beta-10/plexus-i18n-1.0-beta-10.jar = 1570359939364
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-30/plexus-container-default-1.0-alpha-30.jar = 1568982410985
+/home/user1/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar = 1568982332441
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-velocity/1.2/plexus-velocity-1.2.jar = 1570359950084
+/home/user1/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar = 1568988820124
+/home/user1/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar = 1568988820324
+/home/user1/.m2/repository/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar = 1568982416069
+/home/user1/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar = 1568982416137
+/home/user1/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar = 1568982416405
+/home/user1/.m2/repository/commons-chain/commons-chain/1.1/commons-chain-1.1.jar = 1568982416557
+/home/user1/.m2/repository/dom4j/dom4j/1.1/dom4j-1.1.jar = 1568982417041
+/home/user1/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar = 1568982418818
+/home/user1/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar = 1574092328737
+/home/user1/.m2/repository/org/apache/maven/wagon/wagon-provider-api/2.4/wagon-provider-api-2.4.jar = 1590181068871
+/home/user1/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar = 1574092320129
+/home/user1/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar = 1568988442164
+/home/user1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.8/httpclient-4.5.8.jar = 1583437293292
+/home/user1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar = 1583437293044
+/home/user1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1571154392777
+/home/user1/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M10/qdox-2.0-M10.jar = 1590181069747
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar = 1590181069319
+/home/user1/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar = 1574092328989
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-archiver/4.2.1/plexus-archiver-4.2.1.jar = 1590181069607
+/home/user1/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar = 1574274167360
+/home/user1/.m2/repository/org/iq80/snappy/snappy/0.4/snappy-0.4.jar = 1568988435080
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-io/3.2.0/plexus-io-3.2.0.jar = 1590181069795
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar = 1590181070203
+/home/user1/.m2/repository/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar = 1568988820436
+/home/user1/GIT/oop/Bezpalyi Mark/src/main/java = 1590180203631
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/constant-values.html = 1590182079127
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/member-search-index.zip = 1590182079303
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/element-list = 1590182079078
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/serialized-form.html = 1590182079135
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/package-search-index.zip = 1590182079303
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/index-all.html = 1590182079315
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/allpackages-index.html = 1590182079327
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/type-search-index.zip = 1590182079303
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/overview-summary.html = 1590182079339
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/type-search-index.js = 1590182079303
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/member-search-index.js = 1590182079303
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/search.js = 1590182079343
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/package-search-index.js = 1590182079299
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/allclasses-index.html = 1590182079323
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/stylesheet.css = 1590182079343
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/index.html = 1590182079339
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/overview-tree.html = 1590182079259
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/deprecated-list.html = 1590182079331
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/script.js = 1590182079343
+/home/user1/GIT/oop/Bezpalyi Mark/target/site/apidocs/allclasses.html = 1590182079335
